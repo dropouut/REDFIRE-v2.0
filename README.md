@@ -1,6 +1,6 @@
 --Made by Lynx._.x#3236
---loadstring(game:HttpGet("https://raw.githubusercontent.com/UserName123456712345678/REDFIRE-v2.0/main/README.md"))()
 
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/UserName123456712345678/REDFIRE-v2.0/main/README.md"))()
 local RedFirev20 = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -74,6 +74,10 @@ Tabs.Font = Enum.Font.SourceSansBold
 Tabs.Text = "TABS"
 Tabs.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tabs.TextSize = 14.000
+Tabs.MouseButton1Click:Connect(function()
+	TABSTART.Visible = true
+	Tab1.Visible = false
+end)
 
 Tab1.Name = "Tab1"
 Tab1.Parent = MainFrame
@@ -96,10 +100,6 @@ TABSTART.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
 TABSTART.BorderSizePixel = 0
 TABSTART.Position = UDim2.new(0.19178082, 0, 0.024336284, 0)
 TABSTART.Size = UDim2.new(0, 514, 0, 417)
-TABSTART.MouseButton1Click:Connect(function()
-	TABSTART.Visible = true
-	Tab1.Visible = false
-end)
 
 Name1.Name = "Name1"
 Name1.Parent = TABSTART
