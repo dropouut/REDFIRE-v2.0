@@ -1,5 +1,5 @@
 --Made by Lynx._.x#3236
---loadstring(game:HttpGet(""))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/UserName123456712345678/REDFIRE-v2.0/main/README.md"))()
 
 local RedFirev20 = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
