@@ -76,7 +76,7 @@ Tabs.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tabs.TextSize = 14.000
 Tabs.MouseButton1Click:Connect(function()
 	TABSTART.Visible = true
-	Tab1.Visible = false
+	Name1_2.Visible = false
 end)
 
 Tab1.Name = "Tab1"
@@ -91,7 +91,7 @@ Tab1.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tab1.TextSize = 14.000
 Tab1.MouseButton1Click:Connect(function()
 	TABSTART.Visible = false
-	Tab1.Visible = true
+	Name1_2.Visible = true
 end)
 
 TABSTART.Name = "TABSTART"
